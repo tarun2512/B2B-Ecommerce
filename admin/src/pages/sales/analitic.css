@@ -1,0 +1,25 @@
+.procha{
+    overflow-x: scroll;
+    padding: 10px;
+    margin: 20px;
+    /* color: aliceblue; */
+}
+.char{
+    background: #1c1c1c;
+    min-height: 80vh;
+}
+.lef{
+    flex: 1;
+    overflow-x: scroll;
+}
+.piec{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.tri{
+    display: flex;
+    padding: 20px;
+    }

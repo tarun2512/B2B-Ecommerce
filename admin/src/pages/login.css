@@ -1,0 +1,66 @@
+.login{
+    background-image: url("./register.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+.col{
+    width: 18%;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+
+}
+
+.Container {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("./register.jpg")
+      center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Wrapper {
+  width: 40%;
+  padding: 20px;
+  background-color: white;
+}
+
+.Title {
+
+ font-size: 24px;
+  font-weight: 300;
+}
+
+.Form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.input {
+  flex: 1;
+  min-width: 40%;
+  margin: 20px 10px 0px 0px;
+  padding: 10px;
+}
+
+.Agreement{
+  font-size: 12px;
+  margin: 20px 0px;
+}
+
+.Button {
+  width: 40%;
+  border: none;
+  padding: 15px 20px;
+  background-color: teal;
+  color: white;
+  cursor: pointer;
+}
